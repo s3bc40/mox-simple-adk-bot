@@ -1,10 +1,10 @@
-from src import counter
+from contracts import price_oracle
 from moccasin.boa_tools import VyperContract
 
 
 def deploy() -> VyperContract:
-    counter_contract: VyperContract = counter.deploy()
-    return counter_contract
+    contract: VyperContract = price_oracle.deploy()
+    return contract
 
 
 def moccasin_main() -> VyperContract:

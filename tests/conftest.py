@@ -3,5 +3,5 @@ from script.deploy import deploy
 
 
 @pytest.fixture(scope="session")
-def counter_contract():
+def price_oracle_contract():
     return deploy()

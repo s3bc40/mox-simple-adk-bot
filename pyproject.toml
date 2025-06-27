@@ -8,6 +8,5 @@ dependencies = [
     "google-adk>=1.5.0",
     "moccasin>=0.4.2",
     "natrix==0.1.8",
-    "python-telegram-bot>=22.1",
     "vyper==0.4.2",
 ]
