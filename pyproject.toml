@@ -9,4 +9,5 @@ dependencies = [
     "moccasin>=0.4.2",
     "natrix==0.1.8",
     "vyper==0.4.2",
+    "web3>=7.12.0",
 ]
